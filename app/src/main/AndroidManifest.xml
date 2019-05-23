@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.lex.hackbiproject">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Chemistry"
+            android:label="@string/title_activity_chemistry"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".formulaPhysics"
+            android:label="@string/title_activity_formula_physics"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SecondActivity"
+            android:label="@string/title_activity_second"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Math"
+            android:label="@string/title_activity_math"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".English"
+            android:label="@string/title_activity_english"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Science"
+            android:label="@string/title_activity_science"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".History"
+            android:label="@string/title_activity_history"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Algebra"
+            android:label="@string/title_activity_algebra"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".FormulaAlgebra"
+            android:label="@string/title_activity_formula_algebra"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".khan"
+            android:label="@string/title_activity_khan"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Geometry" />
+        <activity
+            android:name=".formulaGeometry"
+            android:label="@string/title_activity_formula_geometry"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Calculus"
+            android:label="@string/title_activity_calculus"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".FormulaCalculus"
+            android:label="@string/title_activity_formula_calculus"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Grammer"
+            android:label="@string/title_activity_grammer"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Trigonometry"
+            android:label="@string/title_activity_trigonometry"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TrigonometryFormula"
+            android:label="@string/title_activity_trigonometry_formula"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MLA"
+            android:label="@string/title_activity_ml"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Physics"
+            android:label="@string/title_activity_physics"
+            android:theme="@style/AppTheme.NoActionBar" />
+    </application>
+
+</manifest>

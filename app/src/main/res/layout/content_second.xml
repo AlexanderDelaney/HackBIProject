@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".SecondActivity"
+    tools:showIn="@layout/activity_second">
+
+    <Button
+        android:id="@+id/Math"
+        android:layout_width="140dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="177dp"
+        android:layout_marginEnd="110dp"
+        android:layout_marginBottom="56dp"
+        android:onClick="mathClick"
+        android:text="@string/math"
+        app:layout_constraintBottom_toTopOf="@+id/Science"
+        app:layout_constraintEnd_toStartOf="@+id/English"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Math" />
+
+    <Button
+        android:id="@+id/English"
+        android:layout_width="140dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="177dp"
+        android:layout_marginBottom="56dp"
+        android:onClick="englishClick"
+        android:text="@string/english"
+        app:layout_constraintBottom_toTopOf="@+id/History"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/Math"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/Science"
+        android:layout_width="140dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="110dp"
+        android:layout_marginBottom="176dp"
+        android:onClick="scienceClick"
+        android:text="@string/science"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/History"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Math" />
+
+    <Button
+        android:id="@+id/History"
+        android:layout_width="140dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginBottom="176dp"
+        android:onClick="historyClick"
+        android:text="@string/history"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/Science"
+        app:layout_constraintTop_toBottomOf="@+id/English" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="377dp"
+        android:layout_height="82dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginEnd="3dp"
+        android:layout_marginBottom="77dp"
+        android:text="@string/choose_subject"
+        android:textAlignment="center"
+        android:textSize="50sp"
+        app:layout_constraintBottom_toTopOf="@+id/Math"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</android.support.constraint.ConstraintLayout>
